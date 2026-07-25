@@ -1,0 +1,25 @@
+# === Entorno virtual de Python ===
+venv/
+.venv/
+
+# === Cache / temporales de Python ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Datos generados por los scrapers ===
+# Los CSV son salida de los scripts (pesan cientos de MB) y se regeneran
+# ejecutando cada scraper; por eso no se versionan.
+*.csv
+
+# === Checkpoints y logs de ejecucion ===
+*.log
+canaln_checkpoint.txt
+
+# === Respaldos comprimidos ===
+*.zip
+
+# === Archivos del sistema operativo ===
+Thumbs.db
+desktop.ini
+.DS_Store
