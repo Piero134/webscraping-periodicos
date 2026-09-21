@@ -22,3 +22,6 @@ canaln_checkpoint.txt
 Thumbs.db
 desktop.ini
 .DS_Store
+
+*.csv
+.vscode/
